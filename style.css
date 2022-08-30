@@ -11,3 +11,39 @@
 body {
     font-family: Outfit, sans-serif;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    background-color: #d3d3d3;
+    width: 25%;
+    height: 70%;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.heading,
+.paragraph {
+    padding: 1.5rem 0 1rem 0;
+    font-size: 25px;
+}
+
+.heading {
+    padding-bottom: 0;
+}
+
+.paragraph {
+    font-size: 15px;
+    padding: 1rem 2rem 2rem 2rem;
+}
