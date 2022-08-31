@@ -23,8 +23,8 @@ body {
 .card-container {
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0 5px 25px hsl(218, 44%, 22%, 0.2);
-    width: 25%;
-    height: 75%;
+    width: 20%;
+    height: 56%;
     padding: 1rem;
     border-radius: 20px;
     text-align: center;
@@ -33,12 +33,13 @@ body {
 .qr-code {
     width: 100%;
     border-radius: 10px;
+    padding-bottom: 0.5rem;
 }
 
 .heading,
 .paragraph {
-    padding: 1rem 0;
-    font-size: 25px;
+    padding: 0.5rem;
+    font-size: 20px;
 }
 
 .heading {
@@ -47,8 +48,7 @@ body {
 }
 
 .paragraph {
-    font-size: 16px;
-    padding: 0.5rem 1.5rem 2rem 1.5rem;
+    font-size: 15px;
     color: hsl(220, 15%, 55%);
 }
 
